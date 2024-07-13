@@ -1,0 +1,505 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    /* margin-top: 0px; */
+    height: 620.5px;
+    /* border: 3px solid; */
+    background-image: url("../assets/Untitled\ design.png") ,url("../assets/header.png");
+    background-color: #FFF8F3;
+    background-repeat: no-repeat;
+    background-position:top left,  bottom right ;
+    /* background-size:contain; */
+}
+main{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+main section h3{
+    font-size: 25px;
+font-weight: 700;
+}
+main section p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.font{
+    font-family: Open Sans;
+}
+a{
+    text-decoration: none;
+    
+
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    margin: 0px 130px;
+
+}
+nav .nav-title{
+font-size: 35px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+}
+nav .nav-title span{
+  color:rgb(253, 110, 10) ;  
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav a{
+    color: rgb(71, 71, 71);
+    
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+   
+}
+nav ul{
+    display: flex;
+    gap: 51px;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn-primary{
+    border-radius: 5px;
+background: rgb(253, 110, 10);
+border: none;
+padding: 11px 31px ;
+color: rgb(255, 255, 255);
+/* font-family: Open Sans; */
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+transition: all 0.5s;
+cursor:pointer
+}
+.btn-primary:hover{
+    background-color: orangered;
+}
+.btn-primary a{
+    color: aliceblue;
+}
+.bnr{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 120px; */
+    margin-left: 130px;
+}
+.bnr-content{
+    width: 497px;
+}
+.bnr-title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 48px;
+font-weight: 700;
+/* line-height: 116px; */
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+}
+.bnr-subtitle{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 26px;
+font-weight: 600;
+/* line-height: 0px; */
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 20px;
+margin-top: 90px;
+}
+.bnr-des{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.div-btn{
+    margin-top: 30px; ;
+    display: flex;
+    gap: 18px;
+}
+.bnr-img{
+    width:519px;
+    /* height:max-content; */
+    
+    
+}
+.img-div{
+    margin-right:40px ;
+}
+.con-about{
+    
+    height: 465px;
+    margin:100px auto;
+    border-radius: 10px;
+background: rgb(255, 248, 243);
+display: flex;
+align-items: center;
+justify-content:center ;
+margin-bottom: 50px;
+}
+.con-about .about{
+    width:700px ;
+    /* margin: 0px auto; */
+    background-color: rgb(255, 255, 255);
+    /* padding: px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    
+    
+}
+
+.con-about .about .con-head{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 100px;
+font-weight: 700;
+/* line-height: 48px; */
+letter-spacing: 0%;
+text-align: center;
+
+}
+.con-about .about .con-para{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0px 5px;
+    margin-top: 30px;
+}
+
+.con-about .about .info{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-family: Open Sans;
+font-size: 15px;
+/* font-weight: 700; */
+/* line-height: 30px; */
+letter-spacing: 0%;
+text-align: center;
+color: rgb(117, 117, 117);
+}
+.con-about .about .info span{
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+}
+.my-work{
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.my-work .title{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+margin-bottom: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.my-work .des{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+ max-width: 800px;
+}
+.my-work .cards{
+    
+    margin: 50px 0;
+    margin-bottom: 70px;
+    display: flex;
+   
+    justify-content: space-between;
+    gap: 20px;
+}
+.my-work .cards .card{
+    
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    Background: rgb(255, 255, 255);
+}
+.my-work .cards .card  img{
+    
+    width: 38px;
+}
+
+.my-work .cards .card  .card-tit{
+    margin-top: 15px;
+    
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+
+
+}
+.my-work .cards .card .card-des{
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    background-color: rgb(255, 248, 243);
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+    padding: 80px 0px;
+    
+    margin-bottom: 0px;
+}
+footer h3{
+    font-size: 25px;
+ font-weight: 700;
+ 
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer-left{
+    max-width: 490px;
+    height: fit-content;
+    /* border: 2px solid; */
+}
+footer .footer-left .title{
+    color: rgb(24, 24, 24);
+/* line-height: 48px; */
+letter-spacing: %;
+text-align: left;
+margin-bottom: 15px;
+}
+footer .footer-left .des{
+    color: rgb(71, 71, 71);
+    letter-spacing: 0%;
+    line-height: 23px;
+    text-align: left;
+}
+footer .footer-left .icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer form{
+    /* max-width: 490px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid; */
+    
+}
+footer input,textarea{
+    /* max-width: 100%; */
+    
+}
+
+footer form .form-tit{
+    margin-bottom: 15px;
+    color: rgb(24, 24, 24);
+    letter-spacing: 0%;
+    /* font-family: open sans; */
+}
+footer form input,textarea{
+    padding: 15px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    font-family: open sans;
+    
+    
+}
+footer form input[type="text"]:focus{
+    border: 1px solid orange;
+    
+}
+
+footer form input[type="email"]:focus{
+    border: 1px solid orange;
+}
+
+footer form textarea:focus{
+    border: 1px solid orange;
+}
+footer form input[type="submit"]{
+    width: max-content;
+    font-family: open sans;
+    border-radius: 5px;
+background: rgb(253, 110, 10);
+border: none;
+padding: 8px 31px ;
+color: rgb(255, 255, 255);
+
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+transition: all 0.5s;
+cursor:pointer;
+}
+footer form input[type="submit"]:hover{
+    background-color:orangered ;
+}
+
+
+
+/* Responsive My work */
+
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px)
+    {
+        .my-work .cards{
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    @media screen and (min-width:576px) and (max-width:750px)
+    {
+        .my-work .cards{
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+    }
+
+    /* Footer responsive */
+
+    @media screen and (max-width:576px)
+    {
+       footer{
+        flex-direction: column;
+        gap: 50px;
+        padding: 20px 20px;
+       }
+       footer h3{
+        font-size: 18px;
+        
+       }
+       footer p{
+        font-size: 12px;
+        line-height: 15px;
+       }
+       footer .icons img{
+        max-width: 18px;
+       }
+      
+       
+       footer form input,textarea{
+        padding: 10px;
+        outline: none;
+        border-radius: 8px;
+        border: none;
+        font-family: open sans;
+        font-size: 12px;
+       }
+       footer form{
+        gap: 10px;
+       }
+       footer form input[type="submit"]{
+
+        padding: 3px 20px;
+       }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (min-width:576px) and (max-width:750px)
+    {
+       footer {
+        /* gap: 40px; */
+        
+        } 
+    }
